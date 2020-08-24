@@ -14,4 +14,8 @@ public class Calculator {
     public int multiplyNumbers(int numOne, int numTwo) {
         return numOne * numTwo;
     }
+
+    public double divideNumbers(double numOne, double numTwo) {
+        return numOne / numTwo;
+    }
 }
