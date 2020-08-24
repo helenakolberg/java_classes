@@ -10,4 +10,8 @@ public class Calculator {
     public int subtractNumbers(int numOne, int numTwo) {
         return numOne - numTwo;
     }
+
+    public int multiplyNumbers(int numOne, int numTwo) {
+        return numOne * numTwo;
+    }
 }
