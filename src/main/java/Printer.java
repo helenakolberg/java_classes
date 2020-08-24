@@ -19,6 +19,7 @@ public class Printer {
         int totalPages = pages * copies;
         if (this.sheets >= totalPages) {
             this.sheets -= totalPages;
+            this.toner -= totalPages;
         }
     }
 }

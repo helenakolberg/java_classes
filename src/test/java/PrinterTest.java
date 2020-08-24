@@ -20,12 +20,14 @@ public class PrinterTest {
     public void hasEnoughSheets() {
         printer.print(5, 2);
         assertEquals(10, printer.getSheets());
+        assertEquals(90, printer.getToner());
     }
 
     @Test
     public void doesNotHaveEnoughSheets() {
         printer.print(15, 3);
         assertEquals(20, printer.getSheets());
+        assertEquals(100, printer.getToner());
     }
 
     @Test
